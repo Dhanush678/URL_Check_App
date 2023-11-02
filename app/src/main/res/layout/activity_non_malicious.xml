@@ -6,4 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".NON_malicious">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="URL_checker"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

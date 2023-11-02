@@ -8,6 +8,6 @@ public class LookupApi {
 
     public static void performLookup(String query, Callback callback) {
         String apiUrl = BASE_URL + "?api_key=" + API_KEY + "&query=" + query;
-        NetworkUtility.get(apiUrl, callback);
+//        NetworkUtility.get(apiUrl, callback);
     }
 }

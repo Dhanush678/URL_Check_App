@@ -9,8 +9,8 @@
 
 
     <LinearLayout
-        android:layout_width="240dp"
-        android:layout_height="262dp"
+        android:layout_width="85dp"
+        android:layout_height="162dp"
         android:background="@drawable/vector3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,16 +20,16 @@
         app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
-            android:layout_width="235dp"
-            android:layout_height="287dp"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
             android:background="@drawable/vector1">
 
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="210dp"
-        android:layout_height="262dp"
+        android:layout_width="85dp"
+        android:layout_height="130dp"
         android:layout_marginTop="472dp"
         android:background="@drawable/vector4"
         android:gravity="bottom"
@@ -43,8 +43,8 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="235dp"
-        android:layout_height="287dp"
+        android:layout_width="95dp"
+        android:layout_height="130dp"
         android:layout_marginTop="462dp"
         android:background="@drawable/vector2"
         android:gravity="bottom"
@@ -60,7 +60,7 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="100dp"
+        android:layout_margin="50dp"
 
         android:background="@drawable/round"
 
@@ -99,7 +99,7 @@
             android:layout_width="155dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="70dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="200dp"
             android:layout_marginEnd="50dp"
             android:layout_marginBottom="100dp"
             android:background="@drawable/button"
@@ -141,6 +141,20 @@
             app:layout_constraintStart_toStartOf="@+id/textView"
             app:layout_constraintTop_toBottomOf="@+id/textView"
             app:layout_constraintVertical_bias="0.248" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_alignStart="@+id/start"
+            android:layout_alignEnd="@+id/start"
+            android:visibility="invisible"
+
+
+            android:layout_marginTop="280dp"
+            />
+
+
     </RelativeLayout>
 
 
